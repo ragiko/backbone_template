@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+	<script src="src/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="src/underscore/underscore.js" type="text/javascript" charset="utf-8"></script>
+	<script src="src/backbone/backbone.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+            // EXAMPLE    
+            Person = Backbone.Model.extend({
+                initialize: function(){
+                    alert("Welcome to this world");
+                }
+            });
+    
+            var person = new Person;
+		});
+	</script> 
+</body>
+</html>

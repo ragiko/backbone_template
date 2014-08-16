@@ -1,0 +1,8 @@
+# npm
+node_modules/
+
+# grunt make file
+src/
+
+# bower
+bower_components/
